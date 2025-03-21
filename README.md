@@ -114,7 +114,7 @@ public class CoreController {
 
 ## 示例运行
 
-1. 克隆项目: `git clone https://github.com/your-username/spring-module.git`
+1. 克隆项目: `git clone https://github.com/ytmxiaoxiaomier/spring-module.git`
 2. 编译项目: `mvn clean install`
 3. 运行示例: `cd spring-module-example && mvn spring-boot:run`
 4. 访问接口:
