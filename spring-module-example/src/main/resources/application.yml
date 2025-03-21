@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: spring-module-example
+
+# 模块生命周期配置
+module:
+  lifecycle:
+    thread-pool-size: 5
+    init-timeout: 60000
+    auto-initialize: true
+    enable-interceptor: true
+
+# Actuator配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,modules
+  endpoint:
+    health:
+      show-details: always 
